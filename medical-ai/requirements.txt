@@ -1,0 +1,27 @@
+# Core
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+jupyterlab
+ipykernel
+
+# Deep learning
+torch
+torchvision
+
+# Boosting baselines
+xgboost
+lightgbm
+
+# Medical AI specific
+lifelines          # survival analysis (Kaplan-Meier, Cox)
+pycox              # DeepSurv-style deep survival models
+
+# Utilities
+tqdm
+requests
+openpyxl
