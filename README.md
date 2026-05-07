@@ -55,6 +55,50 @@ deep-learning-from-scratch/
   outputs/           # 그래프/실험 결과, git 제외
 ```
 
+### `everyones-ml/`
+
+Sung Kim 교수님의 [모두를 위한 머신러닝/딥러닝](https://hunkim.github.io/ml/) 강의를 따라가며 정리/실습하는 공간입니다.
+
+- 환경: Conda `everyones-ml`
+- Python: 3.11
+- 프레임워크: TensorFlow 2.x (tf.keras 중심, 원본 강의는 1.x)
+- 작업 방식: SSH + VS Code Remote SSH
+
+빠른 실행:
+
+```bash
+cd /home/ubuntu/bsjung/learning/machine-learning/everyones-ml
+conda activate everyones-ml
+```
+
+VS Code에서 열 위치:
+
+```text
+/home/ubuntu/bsjung/learning/machine-learning/everyones-ml
+```
+
+VS Code Python interpreter:
+
+```text
+/home/ubuntu/miniconda3/envs/everyones-ml/bin/python
+```
+
+구조:
+
+```text
+everyones-ml/
+  README.md          # 트랙 설명, 강의 목록
+  environment.yml    # everyones-ml conda 환경 정의
+  season1/           # 시즌 1 - 딥러닝의 기본 (Lec 1~12)
+  season-rl/         # 시즌 RL - Deep Reinforcement Learning
+  season-nlp/        # 시즌 NLP - Deep NLP
+  src/               # 재사용 모듈
+  data/              # 데이터, git 제외
+  outputs/           # 그래프/실험 결과, git 제외
+```
+
+각 강의 폴더(`lecXX-*/`) 안에 `notes.md`(이론)와 `lab.ipynb`(실습)을 함께 둡니다.
+
 ### `medical-ai/`
 
 의료 AI 학습 커리큘럼입니다.

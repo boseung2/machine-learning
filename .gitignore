@@ -10,3 +10,9 @@ deep-learning-from-scratch/data/
 deep-learning-from-scratch/outputs/
 deep-learning-from-scratch/**/.ipynb_checkpoints/
 deep-learning-from-scratch/**/__pycache__/
+
+# 모두를 위한 머신러닝/딥러닝 실습 산출물
+everyones-ml/data/
+everyones-ml/outputs/
+everyones-ml/**/.ipynb_checkpoints/
+everyones-ml/**/__pycache__/
