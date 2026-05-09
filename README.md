@@ -99,6 +99,38 @@ everyones-ml/
 
 각 강의 폴더(`lecXX-*/`) 안에 `notes.md`(이론)와 `lab.ipynb`(실습)을 함께 둡니다.
 
+### `modus-deep-learning/`
+
+조태호 저 [『모두의 딥러닝』](https://github.com/gilbutITbook/006958) 예제를 최신 Keras 3 / TensorFlow 2.18로 재작성하며 공부하는 공간입니다.
+
+- 환경: Conda `modus-dl`
+- Python: 3.11
+- 프레임워크: TensorFlow 2.18 + Keras 3 (멀티 백엔드 통합)
+- 작업 방식: SSH + VS Code Remote SSH
+- 책은 약 10년 전 코드(Keras 1.x ~ 2.x)라 그대로 돌지 않음 — 차이는 `MIGRATION.md`에 한 곳으로 모음
+
+빠른 실행:
+
+```bash
+cd /home/ubuntu/bsjung/learning/machine-learning/modus-deep-learning
+conda env create -f environment.yml
+conda activate modus-dl
+```
+
+구조:
+
+```text
+modus-deep-learning/
+  README.md
+  MIGRATION.md       # 책 → Keras 3 API 매핑
+  environment.yml
+  data/              # 책의 6개 CSV
+  src/               # 재사용 모듈
+  outputs/           # 그래프/체크포인트, git 제외
+  part1-basics/      # 책 1~3부 — 이론 (deep_class/ 대응)
+  part2-keras/       # 책 4~5부 — Keras 실전 (deep_code/ 대응)
+```
+
 ### `medical-ai/`
 
 의료 AI 학습 커리큘럼입니다.

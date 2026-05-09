@@ -16,3 +16,11 @@ everyones-ml/data/
 everyones-ml/outputs/
 everyones-ml/**/.ipynb_checkpoints/
 everyones-ml/**/__pycache__/
+
+# 모두의 딥러닝 (조태호) 실습 산출물
+modus-deep-learning/outputs/
+modus-deep-learning/**/.ipynb_checkpoints/
+modus-deep-learning/**/__pycache__/
+modus-deep-learning/**/*.keras
+modus-deep-learning/**/*.h5
+modus-deep-learning/**/*.hdf5

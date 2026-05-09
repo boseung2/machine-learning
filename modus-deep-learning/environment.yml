@@ -1,0 +1,19 @@
+name: modus-dl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - h5py
+  - pip
+  - pip:
+      # TF 2.16+ ships with Keras 3 by default.
+      # 책은 Keras 1.x/2.x 시절이라 일부 API가 다름 — MIGRATION.md 참고.
+      - tensorflow~=2.18.0
+      - keras>=3.5
