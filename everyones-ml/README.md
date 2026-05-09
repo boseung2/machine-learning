@@ -2,6 +2,8 @@
 
 Sung Kim 교수님의 [모두를 위한 머신러닝/딥러닝](https://hunkim.github.io/ml/) 강의를 따라가며 정리/실습하는 트랙입니다.
 
+- 강의 페이지: https://hunkim.github.io/ml/
+- 원본 강의 소스 코드: https://github.com/hunkim/DeepLearningZeroToAll
 - 환경: Conda `everyones-ml`
 - Python: 3.11
 - 프레임워크: TensorFlow 2.x (tf.keras 중심)
