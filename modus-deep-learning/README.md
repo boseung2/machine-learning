@@ -67,30 +67,19 @@ part1-basics/01-linear-regression/
 | 8 | `part1-basics/08-xor/` | `08_XOR.py` | 단층 퍼셉트론의 한계 |
 | 9 | `part1-basics/09-xor-backprop/` | `09_XOR-backpropagation.py` | 역전파로 XOR 풀기 |
 
-## Part 2 — Keras 실전 예제
+## Part 2 — Keras 실전 예제 (책 4~5부)
 
-원본 `deep_code/` 폴더 대응. Keras로 모델을 짜고 데이터셋에 적용.
+폴더 = 책 장 번호. 한 장이 여러 단계로 나뉜 경우 (13/14장), 한 폴더 안에 `lab1-…/lab2-…` 식으로 분할.
 
-| # | 폴더 | 원본 파일 | 데이터 / 주제 |
-| - | ---- | --------- | ------------- |
-| 1 | `part2-keras/01-thoracic-surgery/` | `01_My_First_Deeplearning.py` | ThoraricSurgery — 첫 딥러닝 |
-| 2 | `part2-keras/02-pima-indians/` | `02_Pima_Indian.py`, `02_Data_preparation.py` | Pima 당뇨 — 이진분류 |
-| 3 | `part2-keras/03-iris-multiclass/` | `03_Iris_Multi_Classfication.py` | Iris — 다중분류 (softmax) |
-| 4 | `part2-keras/04-sonar/` | `04-Sonar.py` | Sonar — 이진분류 |
-| 5 | `part2-keras/05-sonar-train-test/` | `05_Sonar_Train_Test.py` | Train/test split |
-| 6 | `part2-keras/06-sonar-save-model/` | `06-Sonar-Save-Model.py` | 모델 저장/로드 |
-| 7 | `part2-keras/07-sonar-kfold/` | `07_Sonar-K-fold.py` | K-fold 교차검증 |
-| 8 | `part2-keras/08-wine/` | `08_Wine.py` | Wine — 분류 |
-| 9 | `part2-keras/09-wine-checkpoint/` | `09_Wine_Checkpoint.py` | ModelCheckpoint 콜백 |
-| 10 | `part2-keras/10-wine-overfit/` | `10_Wine_Overfit_Graph.py` | 과적합 시각화 |
-| 11 | `part2-keras/11-wine-early-stop/` | `11_Wine_Early_Stop.py` | EarlyStopping |
-| 12 | `part2-keras/12-wine-check-and-stop/` | `12_Wine_Check_and_Stop.py` | Checkpoint + EarlyStop 조합 |
-| 13 | `part2-keras/13-boston/` | `13_Boston.py` | Boston housing — 회귀 |
-| 14 | `part2-keras/14-mnist-data/` | `14_MNIST_Data.py` | MNIST 데이터 살펴보기 |
-| 15 | `part2-keras/15-mnist-simple/` | `15_MNIST_Simple.py` | MNIST — Dense |
-| 16 | `part2-keras/16-mnist-deep/` | `16_MNIST_Deep.py` | MNIST — CNN |
-| 17 | `part2-keras/17-rnn-reuters/` | `17_RNN1_Reuters.py` | Reuters — RNN/LSTM |
-| 17 | `part2-keras/17-rnn-imdb/` | `17_RNN2_imdb_lstm.py` | IMDB — LSTM 감성분석 |
+| 책 장 | 폴더 | 데이터 | 주제 / 단계 | 원본 파일 |
+| - | - | - | - | - |
+| 10장 | `part2-keras/ch10-thoracic-surgery/` | ThoraricSurgery.csv | 첫 딥러닝, 수술 후 생존 예측 | `01_My_First_Deeplearning.py` |
+| 11장 | `part2-keras/ch11-pima-indians/` | pima-indians-diabetes.csv | EDA + 당뇨병 이진분류 | `02_Data_preparation.py`, `02_Pima_Indian.py` |
+| 12장 | `part2-keras/ch12-iris/` | iris.csv | 다중분류 (softmax + categorical_crossentropy) | `03_Iris_Multi_Classfication.py` |
+| 13장 | `part2-keras/ch13-sonar/` | sonar.csv | 이진분류 4단계: <br>① baseline ② train/test split ③ 모델 저장/로드 ④ Stratified K-fold | `04-Sonar.py`, `05_Sonar_Train_Test.py`, `06-Sonar-Save-Model.py`, `07_Sonar-K-fold.py` |
+| 14장 | `part2-keras/ch14-wine/` | wine.csv | Wine 분류 5단계: <br>① baseline ② Checkpoint ③ 과적합 시각화 ④ EarlyStopping ⑤ Checkpoint + EarlyStopping 조합 | `08_Wine.py`, `09_Wine_Checkpoint.py`, `10_Wine_Overfit_Graph.py`, `11_Wine_Early_Stop.py`, `12_Wine_Check_and_Stop.py` |
+| 15장 | `part2-keras/ch15-boston/` | housing.csv | Boston housing 회귀 (MSE / MAE) | `13_Boston.py` |
+| (이후) | `ch16-…`, `ch17-…` | MNIST, Reuters, IMDB | CNN, RNN/LSTM | `14`~`17_…` |
 
 ## 학습 방식
 
