@@ -79,7 +79,8 @@ part1-basics/01-linear-regression/
 | 13장 | `part2-keras/ch13-sonar/` | sonar.csv | 이진분류 4단계: <br>① baseline ② train/test split ③ 모델 저장/로드 ④ Stratified K-fold | `04-Sonar.py`, `05_Sonar_Train_Test.py`, `06-Sonar-Save-Model.py`, `07_Sonar-K-fold.py` |
 | 14장 | `part2-keras/ch14-wine/` | wine.csv | Wine 분류 5단계: <br>① baseline ② Checkpoint ③ 과적합 시각화 ④ EarlyStopping ⑤ Checkpoint + EarlyStopping 조합 | `08_Wine.py`, `09_Wine_Checkpoint.py`, `10_Wine_Overfit_Graph.py`, `11_Wine_Early_Stop.py`, `12_Wine_Check_and_Stop.py` |
 | 15장 | `part2-keras/ch15-boston/` | housing.csv | Boston housing 회귀 (MSE / MAE) | `13_Boston.py` |
-| (이후) | `ch16-…`, `ch17-…` | MNIST, Reuters, IMDB | CNN, RNN/LSTM | `14`~`17_…` |
+| 16장 | `part2-keras/ch16-mnist-cnn/` | MNIST (자동 다운로드) | CNN — 손글씨 숫자 분류 (Conv2D + MaxPool) | `14_MNIST_CNN.py` |
+| 17장 | `part2-keras/ch17-reuters-rnn/` | Reuters (자동 다운로드) | RNN/LSTM — 뉴스 카테고리 분류 (46-class) | `15_Reuters_LSTM.py` |
 
 ## 학습 방식
 
